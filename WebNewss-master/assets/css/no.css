@@ -1,0 +1,86 @@
+@charset "utf-8";
+@font-face {
+	font-family: Quicksand;
+	src: url(Quicksand-Medium.ttf);
+}
+
+* {
+	font-family: Quicksand, sans-serif;
+}
+.post {
+   	width: 48%;
+	margin-left: 15% ;
+	float:left;
+	margin-top: -12px;
+}
+.post img{
+	max-width: 656px;
+	max-height: 438px;
+}
+.sidebar {
+ 	width: 20%;
+	position: fixed;
+	right: 13%;
+	float:right;
+	font-size: 12px;
+	padding-top: 20px;
+}
+.date{
+	display: block;
+ 	margin-left: 44%;
+	color: #848484;
+	font-size: 14px;
+}
+p {
+	line-height: 140%;
+	font-size: 18px;
+/*	*/
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: #B40431;
+}
+.sidebar p{
+	font-size: 15px;
+	color: #424242;
+}
+.sidebar strong{
+	font-size: 15px;
+	border: 1px solid red;
+	margin-top: 10px;
+}
+.sidebar image{
+	max-width: 274px;
+	max-height: 172px;
+}
+.line-bottom{
+	border-bottom: 1px solid #B40431;
+	max-width: 95px;
+}
+.line-top{
+	border-top: 2px solid#D8D8D8 ;
+	padding-top: 7px;
+}
+
+body {
+    background-color: #F8F8FF;
+}
+img {
+	max-width:100%;
+	max-height: 100%;
+}
+
+@media only screen and (max-width: 880px) {
+	.sidebar {
+		display: none;
+	}
+	.post {
+		width: 66%;
+	
+	
+	}
+	
+}

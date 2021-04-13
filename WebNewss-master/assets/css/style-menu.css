@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Quicksand ;
+    color: black;
+}
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.menu-bar{
+    width: 880px;
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li  {
+    
+    font-weight: bold;
+    width: 140px;
+    position: relative;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
+.menu ul li a:hover{
+    background: #F2F2F2 ;
+    
+}
+.menu {
+    justify-content: center;
+    background:white;
+    height: 38px;
+    max-width: 100%;
+    line-height: 38px;
+    display:flex;
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: -5px;
+}
+
+.box-search{
+    width: 160px;
+    height: 30px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #D8D8D8;
+    border-radius: 17px;
+    outline:none;
+    padding: 6px 10px;
+  }
+.zone {
+    flex: 1;
+    display: inline-flex;
+  }
+.zone a{
+    color: black;
+    text-decoration: none;
+}
+.button-login{
+    color: black;
+    border: none;
+    padding: 0px 10px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container{
+    overflow: hidden;
+    width: 180px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .icon-search {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    margin-left: -28px;
+  }
+.icon-home{
+    cursor: pointer;
+    border: none;
+    font-size: 23px;
+    margin-left: 12%;
+    margin-top: 4px;
+
+    width: 30px;
+    height: 30px;
+    background: #E6E6E6;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+  .icon-search:focus{
+      outline: none;
+  }
+  .icon-home:focus{
+    outline: none;
+}
+  .menu ul li > .sub-menu{
+      display: none;
+  }
+  .menu ul li:hover .sub-menu{
+      display: block;
+      background:#FAFAFA;
+      border-top: 1px solid #D8D8D8;
+      font-size: 15px;
+  }
+

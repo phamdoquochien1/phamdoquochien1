@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-home{
+    max-height: auto;
+    max-width: 1138px;
+    margin: 0px auto;
+    padding-top: 17px;
+    min-height: 2420px;
+}
+.head-new{
+    margin: 0px 2% 0px 2%;
+    max-height: auto; 
+    min-height: 450px;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 15px;
+    
+}
+.img-hn-left{
+    float: left;
+    max-width: 494px;
+    max-height: 305px;
+}
+.hn-top{
+    margin-right: 30%;
+    height: 285px;
+    min-height: 100%;
+    background: #f7f7f7;
+    max-width: 759px;
+}
+.hn-top strong{
+    font-size: 20px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    height: 76px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 185px;
+}
+.hn-top p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 9;
+    height: 170px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 185px;
+    text-align: justify;
+}
+.hn-bottom strong{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    height: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 210px;
+}
+.hn-bottom li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    height: 120px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    max-width: 210px;
+}
+.content-hn-top{
+    padding: 10px 30px 0px 533px;
+    height: 292px;
+    max-width: 759px;
+    
+}
+.img-hn-right{
+    width: 301px;
+    height: 501px;
+    margin-top: -286px;
+    float: right;
+    border: 1px solid #BDBDBD;
+}
+.hn-bottom{
+    display: inline-flex;
+    width: 763px;
+    padding-top: 20px;
+
+}
+.hn-bottom ul{
+    width: 210px;
+    height: 200px;
+}
+.hn-bottom li {
+    text-align: justify;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 1200px) {
+	.img-hn-right {
+		display: none;
+	}
+	
+}
+
+.new-center{
+    max-width: 1138px;
+    margin: 0px auto;
+} 
+.new-left{ 
+    max-width: 389px;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-right: 2px solid #f2f2f2;
+    
+} 
+.new-left img{
+    width: 146px;
+    height: 88px;
+    padding-top: 4px;
+    padding-right: 17px;
+}
+.left{
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    min-height: 155px;
+    text-align: justify;
+}
+.left p{
+    padding-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.left strong{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.left img{
+    float: left;
+}
+
+.new-right{
+    max-width: 650px;
+    margin: 0px auto;
+    margin-right: 20px;
+    margin-top: -160%; 
+}  
+.new-right img{
+    width: 226px;
+    height: 136px;
+    float: left;
+    padding-right: 10px;
+} 
+.right{
+    border-bottom: 2px solid #f2f2f2;
+    padding: 10px 0px ;
+    /* height: 245px; */
+}
+.right ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-right a{
+    color: #6E6E6E;
+    justify-content: center;
+    text-align: justify;
+}
+.right strong{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    height: 64px;
+}
+.right p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.right-top-left{
+    padding-top: 20px;
+
+    padding-right: 200px;
+}
+.right-top-right{
+    padding-left: 70%;
+    margin-top: -148px; 
+}
+.right-bottom{
+    font-weight: bold;
+    border-top: 2px solid #f2f2f2;
+    height: 100px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.right-bottom li{
+    list-style-type: disc;
+    width: 170px;
+    padding-top: 12px;
+}
+.right-bottom a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}

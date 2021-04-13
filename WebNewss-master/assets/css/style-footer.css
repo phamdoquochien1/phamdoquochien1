@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(Quicksand-Medium.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #333;
+    font-family: Quicksand, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.footer-content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 840px;
+    height: 355px;
+    border-top: 5px solid #BDBDBD;
+    line-height: 25px;
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+.main-col{
+    margin-top: 10px;
+    font-weight: bold;
+    height: 70%;
+    
+}
+.footer-bottom{
+    border-top: 1px solid #BDBDBD;
+	text-align: right;
+}
+.col{
+    max-width: 18%;
+}
+.c1 {
+    margin-top: -175px;
+    margin-left: 25%;
+}
+.c2{
+    margin-top: -125px;
+    margin-left: 50%;
+}
+.c3{
+    margin-top: -148px;
+    margin-left: 66%;
+	border-left: 1px solid #BDBDBD;
+	padding-left: 20px;
+	color: #848484;
+	max-width: 270px;
+}
+.but-1{
+	padding: 4px 25px;
+	border: 1px solid #F2F2F2;
+	cursor: pointer;
+	background-color: #FAFAFA;
+}
+.but-2{
+	cursor: pointer;
+	padding: 4px 25px;
+	border: none;
+	background-color:transparent;
+}
+.zoneInf{
+	max-width: 100%;
+}
+.contact h1{
+	font-size: 16px;
+	color: black;
+}
+
+.cont-right{
+	margin-left: 55%;
+	margin-top: -50px;
+}

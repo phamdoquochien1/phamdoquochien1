@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../assets/css/style-login.css">
+        <script language="javascript" src="../assets/js/Effect-Login.js"></script>
+    </head>
+    <body style="background-color: rgba(0, 0, 0, 0.7);">
+        <section class="zone-login">
+            <div class="tab-menu">
+                <a class="tab active" id="tabA" onclick="ShowTab('tabA','contentA')">Đăng nhập</a>
+                <a class="tab" id="tabB" onclick="ShowTab('tabB', 'contentB')">Tạo tài khoản</a>
+            </div>
+              
+              <div class="content-tab">
+                <div class="content-tab-item active-tab" id="contentA">
+                    <p style="margin-left: 10%;">Đăng nhập với Email</p>
+                    <form class="btn-list">
+                        <input type="text" value="" placeholder=" Email" class="box-input"><br>
+                        <input type="text" value="" placeholder=" Mật Khẩu" class="box-input"><br>
+                        <input type="submit" value="Đăng nhập" class="logo-login">
+                    </form>
+                    <button class="reset-pass" onclick="repassPopup()"><a href="#">Lấy lại mật khẩu</a><button>
+                </div>
+
+                <div class="content-tab-item" id="contentB">
+                  <p style="margin-left: 15%;">Tạo tài khoản với</p>
+                    <button class="box-link">Facebook</button><br>
+                    <button class="box-link gg">Google</button>
+                </div>
+              </div>
+        </section>
+    </body>
+</html>
